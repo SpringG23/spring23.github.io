@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('https://previews.123rf.com/images/cherezoff/cherezoff1601/cherezoff160100293/50192566-codificaci%C3%B3n-de-la-aplicaci%C3%B3n-por-el-desarrollador-programador-c%C3%B3digo-de-programaci%C3%B3n-abstracta.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    font-weight: bold;
+}
+
+.logo-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: aliceblue;
+    font-size: 45px;
+}
+
+.superposed-image {
+    display: block;
+    margin: 20px auto; /* Centra la imagen */
+    width: 150px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header ul li {
+    padding: 0 20px;
+}
+
+header a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: aqua;
+}
+
+.hidden {
+    display: none;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+}
+
+section {
+    text-align: center;
+    margin-top: 50px; /* Ajusta el margen superior para mover "Bienvenido" más arriba */
+}
+
+section h2 {
+    font-size: 3em; /* Tamaño grande para el título */
+    margin-bottom: 50px; /* Ajusta el espacio debajo del título */
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tech-icon {
+    width: 150px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: 150px;
+    margin: 0 20px; /* Espaciado horizontal entre las imágenes */
+    transition: transform 0.3s ease;
+}
+
+.tech-icon:hover {
+    transform: scale(1.2); /* Efecto de agrandamiento al pasar el ratón por encima */
+}
+
+.project-links, .contact-info {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.project-links a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    margin: 10px 0; /* Espaciado vertical entre los enlaces */
+    font-size: 1.2em;
+}
+
+.project-links a:hover {
+    color: aqua;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+.contact-info a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: aqua;
+}
+
+.project-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 20px;
+}
+
+.project a {
+    display: block; /* Hace que el enlace abarque toda la imagen */
+}
+
+.project img {
+    width: 200px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    border: 2px solid white;
+    transition: transform 0.3s ease;
+}
+
+.project img:hover {
+    transform: scale(1.1); /* Efecto de agrandamiento al pasar el ratón por encima */
+}
+
+.project-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 20px 40px; /* Ajusta el margen horizontal para separar las imágenes hacia los lados */
+}
+
+.project a {
+    display: block; /* Hace que el enlace abarque toda la imagen */
+}
+
+.project img {
+    width: 200px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    border: 2px solid white;
+    transition: transform 0.3s ease;
+}
+
+.project img:hover {
+    transform: scale(1.1); /* Efecto de agrandamiento al pasar el ratón por encima */
+}
